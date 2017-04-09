@@ -11,7 +11,7 @@ def adicionarDia(posicao, dia):
   dias[posicao] = dia
 
 for i in range (0,7):
-  posicao = input("informe um valor: ")
+  posicao = int(input("informe um valor: "))
   dia = input("informe o dia: ")
   adicionarDia(posicao,dia)
   
