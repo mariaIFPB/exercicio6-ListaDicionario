@@ -17,11 +17,11 @@ def exibirFuncionarios(funcionarios):
 
 while True:
   funcionarios = dict()
-  qfunc = eval(input("digite a quantidade de funcionários na empresa: "))
+  qfunc = int(input("digite a quantidade de funcionários na empresa: "))
   
   if (qfunc != 0):
     for i in range (0,qfunc):
-      matricula = input("informe a matricula: ")
+      matricula = eval(input("informe a matricula: "))
       nome = input("informe o nome: ")
       adicionarFuncionario(matricula,nome)
     adicionarFuncionario(matricula,nome)
